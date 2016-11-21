@@ -517,7 +517,10 @@ body {
       margin-bottom: 30px; }
     .perfil .infos, .perfil .infos.infos-esq {
       text-align: left;
-      margin-bottom: 20px; } }
+      margin-bottom: 20px; }
+  .portfolio .item {
+    width: 50%;
+    padding-bottom: 35%; } }
 
 @media (max-width: 767px) {
   .perfil > div {
@@ -539,7 +542,10 @@ body {
     position: relative;
     right: auto;
     bottom: auto;
-    width: 100%; } }
+    width: 100%; }
+  .portfolio .item {
+    width: 100%;
+    padding-bottom: 75%; } }
 
 .mfp-with-zoom .mfp-container,
 .mfp-with-zoom.mfp-bg {
