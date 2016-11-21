@@ -73,6 +73,15 @@ p {
     background: #fff;
     color: #FF2F8C; }
 
+.button.white {
+  background: #fff;
+  color: #1c1c1c;
+  border-radius: 0;
+  border: none; }
+  .button.white:hover, .button.white:focus {
+    background: #fff;
+    color: #FF2F8C; }
+
 .clean {
   background: transparent;
   box-shadow: none;
@@ -420,6 +429,65 @@ body {
           height: 2px;
           background: #FF2F8C;
           width: 0; }
+
+.title.title-center {
+  display: block;
+  text-align: center; }
+  .title.title-center h4 {
+    font-size: 25px;
+    color: #FF2F8C;
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 40px; }
+    .title.title-center h4:before {
+      content: "_"; }
+
+.portfolio {
+  display: flex;
+  flex-wrap: wrap; }
+  .portfolio .item {
+    width: 33.3333%;
+    padding-bottom: 20%;
+    position: relative;
+    background-size: cover;
+    background-position: center center; }
+    .portfolio .item .hover {
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      height: 0;
+      width: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      transition: 0.6s;
+      -o-transition: 0.6s;
+      -moz-transition: 0.6s;
+      -webkit-transition: 0.6s; }
+      .portfolio .item .hover .wrap {
+        position: absolute;
+        color: #FF2F8C;
+        top: 80%;
+        left: 50%;
+        opacity: 0;
+        text-align: center;
+        transform: translate(-50%, -50%);
+        -o-transform: translate(-50%, -50%);
+        -moz-transform: translate(-50%, -50%);
+        -webkit-transform: translate(-50%, -50%); }
+        .portfolio .item .hover .wrap h4 {
+          font-size: 25px;
+          color: #FF2F8C;
+          font-weight: 700;
+          margin-top: 0;
+          margin-bottom: 40px; }
+    .portfolio .item:hover .hover {
+      height: 100%; }
+      .portfolio .item:hover .hover .wrap {
+        transition: 0.6s 0.15s;
+        -o-transition: 0.6s 0.15s;
+        -moz-transition: 0.6s 0.15s;
+        -webkit-transition: 0.6s 0.15s;
+        opacity: 1;
+        top: 50%; }
 
 .adicionais .sessao .baixar {
   position: fixed;
