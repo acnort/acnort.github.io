@@ -383,7 +383,16 @@ body {
           font-weight: 400;
           font-style: italic;
           margin: 0;
+          display: table;
           margin-bottom: 10px; }
+        .adicionais > div .sessao .sub-sessao .skill{
+          float: left;
+        }
+        .adicionais > div .sessao .sub-sessao .skill img {
+          max-height: 80px;
+          max-width: 140px;
+          margin-bottom: 15px;
+        }
         .adicionais > div .sessao .sub-sessao .jobs {
           list-style: none;
           padding: 0;
@@ -406,8 +415,8 @@ body {
       padding-top: 80px; }
     .adicionais > div .skill {
       display: table;
-      width: 100%;
-      margin-bottom: 20px; }
+      margin-bottom: 20px;
+      margin-right: 30px }
       .adicionais > div .skill h6 {
         position: relative; }
         .adicionais > div .skill h6 span.valor {
@@ -446,8 +455,9 @@ body {
   display: flex;
   flex-wrap: wrap; }
   .portfolio .item {
-    width: 33.3333%;
+    width: calc(33.3333% - 30px);
     padding-bottom: 20%;
+    margin: 15px;
     position: relative;
     background-size: cover;
     background-position: center center; }
