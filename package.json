@@ -1,31 +1,25 @@
 {
-  "name": "curriculo",
-  "version": "1.0.0",
-  "description": "site do vo",
-  "main": "gulpfile.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "browser-sync": "^2.17.5",
-    "gulp": "^3.9.1",
-    "gulp-file-include": "^1.0.0",
-    "gulp-sass": "^2.3.2"
-  },
+  "name": "new",
+  "version": "0.1.0",
+  "private": true,
   "dependencies": {
-    "browser-sync": "^2.17.5",
-    "gulp": "^3.9.1",
-    "gulp-file-include": "^1.0.0",
-    "gulp-sass": "^2.3.2"
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-scripts": "2.1.8"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/acnort/acnort.github.io.git"
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
   },
-  "bugs": {
-    "url": "https://github.com/acnort/acnort.github.io/issues"
+  "eslintConfig": {
+    "extends": "react-app"
   },
-  "homepage": "https://github.com/acnort/acnort.github.io#readme"
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
 }
