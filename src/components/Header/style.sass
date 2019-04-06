@@ -1,0 +1,26 @@
+@import './../../styles/_variables.sass'
+
+header
+    display: flex
+    align-items: center
+    justify-content: space-between
+    height: 120px
+    width: 100%
+
+    .menu
+        display: flex
+        align-items: center
+        margin: 0 -15px
+
+        li
+            margin: 0 5px
+
+            a
+                transition: color .2s
+                padding: 5px 10px
+
+                &:hover
+                    color: rgba(white, .6)
+
+                &.active
+                    color: $main-color

@@ -1,0 +1,22 @@
+@import './../../styles/_variables.sass'
+
+footer
+    display: flex
+    height: 120px
+    width: 100%
+
+    .socials
+        display: flex
+        align-items: center
+
+        li
+            margin-right: 15px
+
+            svg
+                transition: fill .2s
+                height: 20px
+                width: 20px
+
+            &:hover
+                svg
+                    fill: $main-color

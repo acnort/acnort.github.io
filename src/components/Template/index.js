@@ -3,9 +3,7 @@ import './styles.sass';
 
 const Template = (props) => (
     <main>
-        <div className="container">
-            {props.children}
-        </div>
+        {props.children}
     </main>
 );
 
