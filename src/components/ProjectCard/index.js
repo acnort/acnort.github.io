@@ -11,8 +11,10 @@ export default class ProjectCard extends Component {
                     <div className="project-text">
                         <div className="project-title">{project.title}</div>
                         <div className="project-tags">
-                            <div className="tag">React</div>
-                            <div className="tag">Redux</div>
+                            {project.tags && project.tags.map(tag => (
+                                <div className="tag">{tag}</div>
+                            ))
+                            }
                         </div>
                     </div>
                 </div>
