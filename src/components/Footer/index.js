@@ -10,7 +10,7 @@ export default class Footer extends Component {
 
     }
 
-    render(){
+    render() {
         return (
             <footer>
                 <div className="container">
