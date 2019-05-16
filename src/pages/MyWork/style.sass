@@ -1,0 +1,53 @@
+@import './../../styles/_variables.sass'
+@import "~slick-carousel/slick/slick.css";
+@import "~slick-carousel/slick/slick-theme.css";
+
+.wrapper
+    position: relative
+
+main
+    position: static
+
+#my-work
+    flex-grow: 1
+    display: flex
+    padding: 0
+
+    .container
+        max-width: unset
+        padding: 0
+
+    .projects-list
+        height: 100%
+
+        .slick-slider
+            height: 100%
+            display: flex
+            align-items: center
+
+            .slick-list
+                height: 60vh
+                padding-left: 200px
+
+            .slick-arrow
+                &.slick-prev
+                    left: 20px
+
+                &.slick-next
+                    right: 20px
+
+            .slick-dots
+                li
+                    button:before
+                        transition: .3s
+                        color: white
+                        font-size: 12px
+
+                    &.slick-active
+                        button:before
+                            opacity: 1
+                            color: $main-color
+
+                    &:not(.slick-active):not(:hover)
+                        button:before
+                            opacity: .5

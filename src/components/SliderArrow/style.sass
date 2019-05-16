@@ -1,0 +1,24 @@
+@import './../../styles/_variables.sass'
+
+.slick-arrow.slick-custom-arrow
+    color: white
+    width: 4em
+    height: 4em
+    display: flex
+    align-items: center
+    justify-content: center
+    font-size: 20px
+    border: 2px solid white
+    border-radius: 50%
+    transition: .3s
+    opacity: .7
+    z-index: 2
+
+    &:before
+        content: ""
+
+    &:active, &:focus
+        color: white
+
+    &:hover
+        opacity: 1
